@@ -1,0 +1,179 @@
+/* Control margin and padding of body  */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: lightblue;
+}
+
+/* Universal style */
+* {
+  box-sizing: border-box;
+}
+
+/* heading section style */
+header {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  height: 40px;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+/* heading style */
+h3 {
+  text-align: center;
+  color: rgb(133, 178, 217);
+  margin: auto;
+  padding-top: 7px;
+
+  font-size: 1.5rem;
+}
+
+/* Main section style start from here */
+
+/* main tag style */
+main {
+  margin-top: 5px;
+  width: 100vw;
+}
+
+/* task input div style */
+#add-title-div {
+  width: 40%;
+  background-color: rgb(11, 134, 175);
+  margin: auto;
+  height: 40px;
+  border-radius: 10px;
+}
+
+/* task inut fiels style */
+#adding-task-input {
+  height: 80%;
+  margin: 0px;
+  width: 70%;
+  padding: 0px;
+  border: none;
+  border-width: none;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-top: 4px;
+  margin-left: 5%;
+  cursor: pointer;
+  background-color: #e9eeee;
+}
+
+/* task add button style */
+#add-button {
+  background-color: #00b3ff;
+  color: #e9eeee;
+  border-radius: 10px;
+  height: 80%;
+  margin-left: -2px;
+  padding: 0px;
+  border-width: 0px;
+
+  width: 20%;
+}
+
+/* style of div in which task list is present */
+#list-of-task-div {
+  padding-top: 5px;
+  width: 40%;
+  margin: auto;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+/* style for list item parent */
+ul {
+  margin: 0px;
+  padding: 0px;
+  width: 99%;
+  margin: auto;
+  background-color: #00b3ff;
+  max-height: 70vh;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+/* style for list item */
+li {
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  width: 98%;
+  height: auto;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  background-color: #e9eeee;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* To remove scroll bar from list content  */
+.task-item::-webkit-scrollbar {
+  display: none;
+}
+
+/* This is for task complete button */
+.task-complete-button {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* This is for list content */
+.task-item {
+  display: inline-block;
+
+  width: 70%;
+  overflow: auto;
+  margin-top: 10px;
+  font-family: "Times New Roman", Times, serif\;;
+}
+
+/* This for delete button of list of task */
+.delete-button {
+  float: right;
+  background-color: #f22020;
+  color: #e9eeee;
+  border-radius: 10px;
+  height: 30px;
+  margin-left: -2px;
+  padding: 0px;
+  border-width: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  width: 20%;
+}
+
+/* This div is to show count of task */
+#number-of-task-div {
+  width: 40%;
+  background-color: cornflowerblue;
+  height: 35px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* task count content style */
+#number-of-task-value {
+  text-align: center;
+  color: hsl(206, 42%, 89%);
+  margin: auto;
+  padding-top: 7px;
+
+  font-size: 1.5rem;
+}
